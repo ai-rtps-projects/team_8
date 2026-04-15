@@ -1,0 +1,8 @@
+{
+  "items": [
+    {"id": "burger", "name": "Classic Burger", "price": 12.99},
+    {"id": "pizza", "name": "Margherita Pizza", "price": 14.99},
+    {"id": "salad", "name": "Caesar Salad", "price": 9.99},
+    {"id": "coffee", "name": "Iced Latte", "price": 4.50}
+  ]
+}
