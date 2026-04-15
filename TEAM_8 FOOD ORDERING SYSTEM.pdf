@@ -1,0 +1,1511 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 11
+/Kids [ 4 0 R 15 0 R 18 0 R 21 0 R 24 0 R 27 0 R 30 0 R 33 0 R 36 0 R 39 0 R 42 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F1-1 8 0 R
+/F2 9 0 R
+/F2-0 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 4427
+>>
+stream
+q
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 764.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 5 Tm /F1 10 Tf 15 TL (Ex no :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 745.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 5 Tm /F1 10 Tf 15 TL (Date :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 731.1969 cm
+Q
+q
+1 0 0 1 62.69291 724.3969 cm
+q
+.8 w
+1 J
+.486275 .227451 .929412 RG
+n 0 0 m 469.8898 0 l S
+Q
+Q
+q
+1 0 0 1 62.69291 690.3969 cm
+q
+.356863 .129412 .713725 rg
+BT 1 0 0 1 0 9 Tm /F2 13 Tf 22 TL (AIM:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 641.3969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 35 Tm /F1 10 Tf 15 TL (To design and develop an AI-powered online food ordering assistant chatbot using Python \(Flask\) that) Tj T* (helps users browse the menu, add items to cart, and place orders through an interactive conversational) Tj T* (interface.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 631.3969 cm
+Q
+q
+1 0 0 1 62.69291 597.3969 cm
+q
+.356863 .129412 .713725 rg
+BT 1 0 0 1 0 9 Tm /F2 13 Tf 22 TL (DESCRIPTION:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 533.3969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 15 TL (In today's fast-growing food delivery landscape, customers often struggle to quickly find and order their) Tj T* (desired meals. Browsing large menus, customizing orders, and checking cart totals can be) Tj T* (time-consuming. The Online Food Ordering Assistant Chatbot is an intelligent virtual assistant designed to) Tj T* (simplify and enhance the food ordering experience.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 469.3969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 15 TL (This project focuses on developing a dynamic chatbot integrated directly into a food dashboard. Instead of) Tj T* (manually browsing the menu, users can interact with the chatbot using natural language queries such as) Tj T* ("Add a burger" or "Show me the menu." The chatbot interprets user intent and adds items to the cart,) Tj T* (displays the current cart total, and processes checkout in real time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 405.3969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 15 TL (The system uses a structured menu dataset containing attributes like item name, price, and image. By) Tj T* (applying rule-based keyword-based Natural Language Processing \(NLP\), the chatbot identifies user) Tj T* (requests and responds accordingly. It handles follow-up queries, enabling a smooth conversational) Tj T* (ordering experience similar to interacting with a human food counter assistant.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 341.3969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 15 TL (The chatbot is integrated into a web-based food dashboard, functioning as a floating chat widget. The) Tj T* (frontend is built using HTML, CSS, and JavaScript to provide a responsive and user-friendly interface,) Tj T* (while the backend is powered by Python Flask to manage request handling, business logic, and cart) Tj T* (management.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 331.3969 cm
+Q
+q
+1 0 0 1 62.69291 305.3969 cm
+q
+.486275 .227451 .929412 rg
+BT 1 0 0 1 0 7 Tm /F2 11 Tf 18 TL (Project Structure:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 287.3969 cm
+q
+BT 1 0 0 1 18 5 Tm 15 TL /F1 10 Tf 0 0 0 rg (\177 app.py: Flask backend handling chatbot logic, intent detection, and cart/order management.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 269.3969 cm
+q
+BT 1 0 0 1 18 5 Tm 15 TL /F1 10 Tf 0 0 0 rg (\177 templates/index.html: Structure of the food dashboard and chatbot user interface.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 251.3969 cm
+q
+BT 1 0 0 1 18 5 Tm 15 TL /F1 10 Tf 0 0 0 rg (\177 static/style.css: Styling for a clean, modern food ordering chat UI.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 233.3969 cm
+q
+BT 1 0 0 1 18 5 Tm 15 TL /F1 10 Tf 0 0 0 rg (\177 static/script.js: Handles user input, API calls, and dynamic message rendering.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 215.3969 cm
+q
+BT 1 0 0 1 18 5 Tm 15 TL /F1 10 Tf 0 0 0 rg (\177 menu.json: Sample dataset containing menu item details used for ordering.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 208.3969 cm
+Q
+q
+1 0 0 1 62.69291 196.3969 cm
+q
+.486275 .227451 .929412 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 159.3749 0 Td (Online Food Ordering Assistant) Tj T* -159.3749 0 Td ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 766.8898 595.2756 75 re
+f*
+0 0 0 rg
+BT
+/F2-0 18 Tf
+21.6 TL
+ET
+BT
+1 0 0 1 181.1238 796.8898 Tm
+(FOOD ORDERING SYSTEM) Tj
+T*
+ET
+Q
+
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-1 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 720 600 100 re
+f*
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica-BoldOblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F6
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 9 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 3326
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 757.1969 cm
+q
+.356863 .129412 .713725 rg
+BT 1 0 0 1 0 9 Tm /F2 13 Tf 22 TL (Impact:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 731.1969 cm
+q
+.486275 .227451 .929412 rg
+BT 1 0 0 1 0 7 Tm /F2 11 Tf 18 TL (Enhanced Ordering Experience:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 698.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 20 Tm /F1 10 Tf 15 TL (Provides quick item lookup and cart management, reducing the time and effort required to place a food) Tj T* (order.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 672.1969 cm
+q
+.486275 .227451 .929412 rg
+BT 1 0 0 1 0 7 Tm /F2 11 Tf 18 TL (Smart Cart Management:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 639.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 20 Tm /F1 10 Tf 15 TL (Allows users to add items by name, view cart totals, and checkout seamlessly, helping them make faster) Tj T* (decisions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 613.1969 cm
+q
+.486275 .227451 .929412 rg
+BT 1 0 0 1 0 7 Tm /F2 11 Tf 18 TL (24/7 Customer Assistance:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 595.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 5 Tm /F1 10 Tf 15 TL (Offers continuous support without the need for human intervention, improving customer satisfaction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 569.1969 cm
+q
+.486275 .227451 .929412 rg
+BT 1 0 0 1 0 7 Tm /F2 11 Tf 18 TL (Scalable Solution:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 551.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 5 Tm /F1 10 Tf 15 TL (Can handle multiple users simultaneously, making it suitable for large-scale food delivery platforms.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.1969 cm
+q
+.486275 .227451 .929412 rg
+BT 1 0 0 1 0 7 Tm /F2 11 Tf 18 TL (Reduced Abandonment Rate:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 492.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 20 Tm /F1 10 Tf 15 TL (Engaging chatbot interaction keeps users on the platform longer, increasing the likelihood of order) Tj T* (completion.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 480.1969 cm
+Q
+q
+1 0 0 1 62.69291 473.3969 cm
+q
+.8 w
+1 J
+.486275 .227451 .929412 RG
+n 0 0 m 469.8898 0 l S
+Q
+Q
+q
+1 0 0 1 62.69291 439.3969 cm
+q
+.356863 .129412 .713725 rg
+BT 1 0 0 1 0 9 Tm /F2 13 Tf 22 TL (PROGRAM CODE:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 413.3969 cm
+q
+.486275 .227451 .929412 rg
+BT 1 0 0 1 0 7 Tm /F2 11 Tf 18 TL (1\) Backend Code \(app.py\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 73.39685 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 36 328 Tm /F4 8 Tf 12 TL (""") Tj T* (Food Ordering Chatbot Backend) Tj T* (Flask application that handles chatbot requests and processes user queries) Tj T* (""") Tj T* (from flask import Flask, render_template, request, jsonify) Tj T* (import json) Tj T* (import re) Tj T* (from datetime import datetime) Tj T*  T* (app = Flask\(__name__\)) Tj T*  T* (# Load menu dataset) Tj T* (def load_menu\(\):) Tj T* (    """Load menu items from JSON file""") Tj T* (    with open\('menu.json', 'r'\) as f:) Tj T* (        return json.load\(f\)['items']) Tj T*  T* (# Global menu list) Tj T* (MENU_ITEMS = load_menu\(\)) Tj T*  T* (class ChatbotEngine:) Tj T* (    """Rule-based chatbot engine for food ordering and cart management""") Tj T*  T* (    def __init__\(self, menu_items\):) Tj T* (        self.menu_items = menu_items) Tj T* (        self.cart = []) Tj T*  T* (    def normalize_text\(self, text\):) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 720 600 100 re
+f*
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/Contents 19 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 20 0 R
+/F2 9 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 3082
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 71.19685 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 36 700 Tm /F4 8 Tf 12 TL (        """Normalize user input for better matching""") Tj T* (        return text.lower\(\).strip\(\)) Tj T*  T* (    def detect_intent\(self, text\):) Tj T* (        """Detect user intent from input""") Tj T* (        normalized = self.normalize_text\(text\)) Tj T* (        menu_keywords    = ['menu', 'show menu', 'what do you have', 'food list']) Tj T* (        add_keywords     = ['add', 'order', 'want', 'give me', 'i'll have']) Tj T* (        cart_keywords    = ['cart', 'my order', 'what's in my cart', 'show cart']) Tj T* (        checkout_keywords= ['checkout', 'pay', 'place order', 'confirm']) Tj T* (        remove_keywords  = ['remove', 'cancel', 'delete']) Tj T*  T* (        if any\(k in normalized for k in menu_keywords\):) Tj T* (            return 'show_menu') Tj T* (        elif any\(k in normalized for k in add_keywords\):) Tj T* (            return 'add_item') Tj T* (        elif any\(k in normalized for k in cart_keywords\):) Tj T* (            return 'view_cart') Tj T* (        elif any\(k in normalized for k in checkout_keywords\):) Tj T* (            return 'checkout') Tj T* (        elif any\(k in normalized for k in remove_keywords\):) Tj T* (            return 'remove_item') Tj T* (        else:) Tj T* (            return 'unknown') Tj T*  T* (    def find_item\(self, text\):) Tj T* (        """Find a menu item by keyword match""") Tj T* (        normalized = self.normalize_text\(text\)) Tj T* (        for item in self.menu_items:) Tj T* (            if self.normalize_text\(item['name']\) in normalized:) Tj T* (                return item) Tj T* (        return None) Tj T*  T* (    def format_item\(self, item\):) Tj T* (        """Format menu item for display""") Tj T* (        return f"{item['name']} - ${item['price']:.2f}") Tj T*  T* (    def generate_response\(self, user_input, cart\):) Tj T* (        """Generate chatbot response based on user input""") Tj T* (        self.cart = cart) Tj T* (        intent = self.detect_intent\(user_input\)) Tj T*  T* (        if intent == 'show_menu':) Tj T* (            menu_text = "\\n".join\() Tj T* (                f"\177 {self.format_item\(i\)}" for i in self.menu_items) Tj T* (            \)) Tj T* (            return {'message': f"Our Menu:\\n{menu_text}", 'cart': self.cart}) Tj T*  T* (        elif intent == 'add_item':) Tj T* (            item = self.find_item\(user_input\)) Tj T* (            if item:) Tj T* (                self.cart.append\(item\)) Tj T* (                return {) Tj T* (                    'message': f"Added {item['name']} to your cart! ") Tj T* (                               f"Type cart to view or checkout to pay.",) Tj T* (                    'cart': self.cart) Tj T* (                }) Tj T* (            return {) Tj T* (                'message': "Sorry, I couldn't find that item. ") Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 720 600 100 re
+f*
+Q
+
+
+endstream
+endobj
+20 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+21 0 obj
+<<
+/Contents 22 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 23 0 R
+/F2 9 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 2816
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 71.19685 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 36 700 Tm /F4 8 Tf 12 TL (                           "Type menu to see what's available.",) Tj T* (                'cart': self.cart) Tj T* (            }) Tj T*  T* (        elif intent == 'view_cart':) Tj T* (            if not self.cart:) Tj T* (                return {'message': "Your cart is empty! Type menu to browse.", 'cart': []}) Tj T* (            total = sum\(i['price'] for i in self.cart\)) Tj T* (            items = ", ".join\(i['name'] for i in self.cart\)) Tj T* (            return {) Tj T* (                'message': f"Cart: {items}\\nTotal: ${total:.2f}",) Tj T* (                'cart': self.cart) Tj T* (            }) Tj T*  T* (        elif intent == 'checkout':) Tj T* (            if not self.cart:) Tj T* (                return {'message': "Your cart is empty! Add items first.", 'cart': []}) Tj T* (            total = sum\(i['price'] for i in self.cart\)) Tj T* (            self.cart = []) Tj T* (            return {) Tj T* (                'message': f"Order placed! Total paid: ${total:.2f}. ") Tj T* (                           f"Your food is being prepared!",) Tj T* (                'cart': []) Tj T* (            }) Tj T*  T* (        else:) Tj T* (            return {) Tj T* (                'message': "I didn't understand. Try: menu, add burger, cart, checkout.",) Tj T* (                'cart': self.cart) Tj T* (            }) Tj T*  T* (chatbot = ChatbotEngine\(MENU_ITEMS\)) Tj T*  T* (@app.route\('/'\)) Tj T* (def index\(\):) Tj T* (    return render_template\('index.html'\)) Tj T*  T* (@app.route\('/chat', methods=['POST']\)) Tj T* (def chat\(\):) Tj T* (    try:) Tj T* (        data = request.get_json\(\)) Tj T* (        user_message = data.get\('message', ''\).strip\(\)) Tj T* (        cart = data.get\('cart', []\)) Tj T* (        if not user_message:) Tj T* (            return jsonify\({'response': 'Please enter a message!',) Tj T* (                            'timestamp': datetime.now\(\).isoformat\(\)}\), 400) Tj T* (        result = chatbot.generate_response\(user_message, cart\)) Tj T* (        return jsonify\({) Tj T* (            'response': result['message'],) Tj T* (            'cart': result['cart'],) Tj T* (            'timestamp': datetime.now\(\).isoformat\(\)) Tj T* (        }\), 200) Tj T* (    except Exception as e:) Tj T* (        return jsonify\({'response': f'Error: {str\(e\)}',) Tj T* (                        'timestamp': datetime.now\(\).isoformat\(\)}\), 500) Tj T*  T* (@app.route\('/menu', methods=['GET']\)) Tj T* (def get_menu\(\):) Tj T* (    return jsonify\({'items': MENU_ITEMS}\), 200) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 720 600 100 re
+f*
+Q
+
+
+endstream
+endobj
+23 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 9 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 344
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 755.1969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 36 16 Tm /F4 8 Tf 12 TL (if __name__ == '__main__':) Tj T* (    app.run\(debug=True, host='127.0.0.1', port=5000\)) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 720 600 100 re
+f*
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/Contents 28 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 29 0 R
+/F2 9 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 2562
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 761.1969 cm
+q
+.486275 .227451 .929412 rg
+BT 1 0 0 1 0 7 Tm /F2 11 Tf 18 TL (2\) Menu Dataset \(menu.json\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 373.1969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 36 376 Tm /F4 8 Tf 12 TL ({) Tj T* (  "items": [) Tj T* (    {) Tj T* (      "id": "burger",) Tj T* (      "name": "Classic Burger",) Tj T* (      "price": 12.99,) Tj T* (      "category": "Main",) Tj T* (      "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400") Tj T* (    },) Tj T* (    {) Tj T* (      "id": "pizza",) Tj T* (      "name": "Margherita Pizza",) Tj T* (      "price": 14.99,) Tj T* (      "category": "Main",) Tj T* (      "img": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=400") Tj T* (    },) Tj T* (    {) Tj T* (      "id": "salad",) Tj T* (      "name": "Caesar Salad",) Tj T* (      "price": 9.99,) Tj T* (      "category": "Starters",) Tj T* (      "img": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=400") Tj T* (    },) Tj T* (    {) Tj T* (      "id": "coffee",) Tj T* (      "name": "Iced Latte",) Tj T* (      "price": 4.50,) Tj T* (      "category": "Drinks",) Tj T* (      "img": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=400") Tj T* (    }) Tj T* (  ]) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 347.1969 cm
+q
+.486275 .227451 .929412 rg
+BT 1 0 0 1 0 7 Tm /F2 11 Tf 18 TL (3\) Frontend \(templates/index.html\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 67.19685 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 36 268 Tm /F4 8 Tf 12 TL (<!DOCTYPE html>) Tj T* (<html lang="en">) Tj T* (<head>) Tj T* (  <meta charset="UTF-8">) Tj T* (  <meta name="viewport" content="width=device-width, initial-scale=1.0">) Tj T* (  <title>Campus Bite - Food Ordering Assistant</title>) Tj T* (  <link rel="stylesheet" href="{{ url_for\('static', filename='style.css'\) }}">) Tj T* (</head>) Tj T* (<body>) Tj T* (  <div class="container">) Tj T* (    <!-- Header -->) Tj T* (    <div class="chat-header">) Tj T* (      <div class="header-content">) Tj T* (        <h1>Campus Bite</h1>) Tj T* (        <p class="subtitle">Your personal food ordering assistant</p>) Tj T* (      </div>) Tj T* (    </div>) Tj T*  T* (    <!-- Dashboard Menu Grid -->) Tj T* (    <div class="menu-section">) Tj T* (      <h2>Popular Menu Items</h2>) Tj T* (      <div class="menu-grid" id="menu-container"></div>) Tj T* (    </div>) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 720 600 100 re
+f*
+Q
+
+
+endstream
+endobj
+29 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+30 0 obj
+<<
+/Contents 31 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 32 0 R
+/F2 9 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+31 0 obj
+<<
+/Length 2226
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 191.1969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 36 580 Tm /F4 8 Tf 12 TL (    <!-- Chat Window -->) Tj T* (    <div class="chat-window" id="chatWindow">) Tj T* (      <div class="message bot-message">) Tj T* (        <div class="message-content">) Tj T* (          <p><strong>Welcome to Campus Bite! </strong></p>) Tj T* (          <p>I'm here to help you order food. You can:</p>) Tj T* (          <ul>) Tj T* (            <li>Browse the menu: "Show me the menu"</li>) Tj T* (            <li>Add items: "Add a burger"</li>) Tj T* (            <li>View cart: "Show my cart"</li>) Tj T* (            <li>Checkout: "Checkout" or "Pay"</li>) Tj T* (            <li>Or click the buttons above to add from dashboard!</li>) Tj T* (          </ul>) Tj T* (          <p><em>What would you like to order today?</em></p>) Tj T* (        </div>) Tj T* (        <div class="message-time">Just now</div>) Tj T* (      </div>) Tj T* (    </div>) Tj T*  T* (    <!-- Input Area -->) Tj T* (    <div class="input-container">) Tj T* (      <form id="chatForm" onsubmit="sendMessage\(event\)">) Tj T* (        <input type="text" id="userInput" class="message-input") Tj T* (          placeholder="Type your order... \(e.g., 'Add a pizza'\)") Tj T* (          autocomplete="off">) Tj T* (        <button type="submit" class="send-button" id="sendBtn">) Tj T* (          <span class="send-icon">Send</span>) Tj T* (        </button>) Tj T* (      </form>) Tj T* (    </div>) Tj T*  T* (    <div class="footer">) Tj T* (      <p>Tip: Be specific with your order for better results!</p>) Tj T* (    </div>) Tj T* (  </div>) Tj T*  T* (  <template id="typingIndicator">) Tj T* (    <div class="message bot-message">) Tj T* (      <div class="message-content">) Tj T* (        <div class="typing-indicator">) Tj T* (          <span></span><span></span><span></span>) Tj T* (        </div>) Tj T* (      </div>) Tj T* (    </div>) Tj T* (  </template>) Tj T*  T* (  <script src="{{ url_for\('static', filename='script.js'\) }}"></script>) Tj T* (</body>) Tj T* (</html>) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 720 600 100 re
+f*
+Q
+
+
+endstream
+endobj
+32 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+33 0 obj
+<<
+/Contents 34 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 35 0 R
+/F2 9 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 2526
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 761.1969 cm
+q
+.486275 .227451 .929412 rg
+BT 1 0 0 1 0 7 Tm /F2 11 Tf 18 TL (4\) Styling \(static/style.css\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 73.19685 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 36 676 Tm /F4 8 Tf 12 TL (* { box-sizing: border-box; margin: 0; padding: 0; }) Tj T*  T* (body {) Tj T* (  font-family: 'Poppins', sans-serif;) Tj T* (  background: #f0f2f5;) Tj T* (  color: #333;) Tj T* (}) Tj T*  T* (/* Header */) Tj T* (.chat-header {) Tj T* (  background: linear-gradient\(135deg, #7c3aed 0%, #5b21b6 60%, #4c1d95 100%\);) Tj T* (  padding: 24px;) Tj T* (  text-align: center;) Tj T* (  color: white;) Tj T* (  border-radius: 0 0 18px 18px;) Tj T* (  box-shadow: 0 4px 20px rgba\(109,40,217,0.35\);) Tj T* (}) Tj T* (.chat-header h1 { font-size: 26px; font-weight: 700; }) Tj T* (.subtitle { font-size: 13px; color: #ddd6fe; margin-top: 4px; }) Tj T*  T* (/* Menu Grid */) Tj T* (.menu-section { padding: 20px; }) Tj T* (.menu-section h2 { color: #4c1d95; margin-bottom: 16px; }) Tj T* (.menu-grid {) Tj T* (  display: grid;) Tj T* (  grid-template-columns: repeat\(auto-fill, minmax\(200px, 1fr\)\);) Tj T* (  gap: 18px;) Tj T* (}) Tj T* (.card {) Tj T* (  background: white; border-radius: 14px;) Tj T* (  overflow: hidden; box-shadow: 0 3px 12px rgba\(0,0,0,0.07\);) Tj T* (  transition: transform 0.2s;) Tj T* (}) Tj T* (.card:hover { transform: translateY\(-4px\); }) Tj T* (.card img { width: 100%; height: 150px; object-fit: cover; }) Tj T* (.card-body { padding: 14px; }) Tj T* (.card-title { font-size: 15px; font-weight: 600; }) Tj T* (.card-price { color: #7c3aed; font-weight: 700; margin: 4px 0 12px; }) Tj T* (.btn {) Tj T* (  width: 100%; padding: 9px;) Tj T* (  background: linear-gradient\(135deg, #7c3aed, #5b21b6\);) Tj T* (  color: white; border: none; border-radius: 8px;) Tj T* (  cursor: pointer; font-weight: 600;) Tj T* (}) Tj T*  T* (/* Chat Window */) Tj T* (.chat-window {) Tj T* (  height: 360px; overflow-y: auto;) Tj T* (  padding: 18px; display: flex;) Tj T* (  flex-direction: column; gap: 12px;) Tj T* (  background: #faf9ff;) Tj T* (}) Tj T* (.message { max-width: 78%; padding: 11px 14px;) Tj T* (  border-radius: 16px; font-size: 13.5px; line-height: 1.55; }) Tj T* (.bot-message {) Tj T* (  background: #f3f0ff; color: #3b0764;) Tj T* (  align-self: flex-start; border-bottom-left-radius: 4px;) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 720 600 100 re
+f*
+Q
+
+
+endstream
+endobj
+35 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+36 0 obj
+<<
+/Contents 37 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 38 0 R
+/F2 9 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+37 0 obj
+<<
+/Length 2785
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 323.1969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 36 448 Tm /F4 8 Tf 12 TL (}) Tj T* (.user-message {) Tj T* (  background: linear-gradient\(135deg, #7c3aed, #5b21b6\);) Tj T* (  color: white; align-self: flex-end; border-bottom-right-radius: 4px;) Tj T* (}) Tj T* (.message-time { font-size: 10px; color: #999; margin-top: 3px; }) Tj T*  T* (/* Input */) Tj T* (.input-container {) Tj T* (  display: flex; padding: 14px 16px;) Tj T* (  border-top: 1px solid #ede9fe; background: white; gap: 10px;) Tj T* (}) Tj T* (.message-input {) Tj T* (  flex: 1; padding: 11px 16px;) Tj T* (  border: 1.5px solid #ddd6fe; border-radius: 24px; outline: none;) Tj T* (}) Tj T* (.send-button {) Tj T* (  background: linear-gradient\(135deg, #7c3aed, #5b21b6\);) Tj T* (  color: white; border: none; padding: 0 22px;) Tj T* (  border-radius: 24px; cursor: pointer; font-weight: 600;) Tj T* (}) Tj T* (.footer {) Tj T* (  text-align: center; padding: 10px;) Tj T* (  font-size: 12px; color: #7c3aed;) Tj T* (}) Tj T*  T* (/* Typing Indicator */) Tj T* (.typing-indicator { display: flex; gap: 4px; align-items: center; }) Tj T* (.typing-indicator span {) Tj T* (  width: 8px; height: 8px; border-radius: 50%;) Tj T* (  background: #7c3aed; animation: bounce 1.2s infinite;) Tj T* (}) Tj T* (.typing-indicator span:nth-child\(2\) { animation-delay: 0.2s; }) Tj T* (.typing-indicator span:nth-child\(3\) { animation-delay: 0.4s; }) Tj T* (@keyframes bounce {) Tj T* (  0%, 60%, 100% { transform: translateY\(0\); }) Tj T* (  30% { transform: translateY\(-6px\); }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 297.1969 cm
+q
+.486275 .227451 .929412 rg
+BT 1 0 0 1 0 7 Tm /F2 11 Tf 18 TL (5\) JavaScript \(static/script.js\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 65.19685 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 36 220 Tm /F4 8 Tf 12 TL (let cart = [];) Tj T*  T* (// Render menu cards from API) Tj T* (async function renderMenu\(\) {) Tj T* (  const res = await fetch\('/menu'\);) Tj T* (  const data = await res.json\(\);) Tj T* (  const container = document.getElementById\('menu-container'\);) Tj T* (  container.innerHTML = data.items.map\(item => `) Tj T* (    <div class="card">) Tj T* (      <img src="${item.img}" alt="${item.name}">) Tj T* (      <div class="card-body">) Tj T* (        <h3 class="card-title">${item.name}</h3>) Tj T* (        <div class="card-price">$${item.price.toFixed\(2\)}</div>) Tj T* (        <button class="btn") Tj T* (          onclick="addFromDashboard\('${item.id}','${item.name}',${item.price}\)">) Tj T* (          Add to Cart) Tj T* (        </button>) Tj T* (      </div>) Tj T* (    </div>) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 720 600 100 re
+f*
+Q
+
+
+endstream
+endobj
+38 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/Contents 40 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 41 0 R
+/F2 9 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 2037
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 227.1969 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 36 544 Tm /F4 8 Tf 12 TL (  `\).join\(''\);) Tj T* (}) Tj T*  T* (function addFromDashboard\(id, name, price\) {) Tj T* (  cart.push\({ id, name, price }\);) Tj T* (  appendMessage\(`Added ${name} to your cart! Type checkout when ready.`, 'bot'\);) Tj T* (}) Tj T*  T* (function appendMessage\(text, sender\) {) Tj T* (  const win = document.getElementById\('chatWindow'\);) Tj T* (  const div = document.createElement\('div'\);) Tj T* (  div.className = `message ${sender === 'bot' ? 'bot-message' : 'user-message'}`;) Tj T* (  const now = new Date\(\).toLocaleTimeString\([], {hour:'2-digit', minute:'2-digit'}\);) Tj T* (  div.innerHTML = `) Tj T* (    <div class="message-content"><p>${text}</p></div>) Tj T* (    <div class="message-time">${now}</div>) Tj T* (  `;) Tj T* (  win.appendChild\(div\);) Tj T* (  win.scrollTop = win.scrollHeight;) Tj T* (}) Tj T*  T* (async function sendMessage\(e\) {) Tj T* (  e.preventDefault\(\);) Tj T* (  const input = document.getElementById\('userInput'\);) Tj T* (  const text = input.value.trim\(\);) Tj T* (  if \(!text\) return;) Tj T* (  appendMessage\(text, 'user'\);) Tj T* (  input.value = '';) Tj T*  T* (  // Show typing indicator) Tj T* (  const tmpl = document.getElementById\('typingIndicator'\);) Tj T* (  const typing = tmpl.content.cloneNode\(true\).firstElementChild;) Tj T* (  document.getElementById\('chatWindow'\).appendChild\(typing\);) Tj T*  T* (  const res = await fetch\('/chat', {) Tj T* (    method: 'POST',) Tj T* (    headers: {'Content-Type': 'application/json'},) Tj T* (    body: JSON.stringify\({ message: text, cart }\)) Tj T* (  }\);) Tj T* (  const data = await res.json\(\);) Tj T* (  typing.remove\(\);) Tj T* (  cart = data.cart || cart;) Tj T* (  appendMessage\(data.response, 'bot'\);) Tj T* (}) Tj T*  T* (renderMenu\(\);) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 720 600 100 re
+f*
+Q
+
+
+endstream
+endobj
+41 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+42 0 obj
+<<
+/Contents 43 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 44 0 R
+/F2 9 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+43 0 obj
+<<
+/Length 7747
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 757.1969 cm
+q
+.356863 .129412 .713725 rg
+BT 1 0 0 1 0 9 Tm /F2 13 Tf 22 TL (Output:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 747.1969 cm
+Q
+q
+1 0 0 1 70.86614 695.1969 cm
+q
+%begin table rect clip
+n 0 0 m 453.5433 0 l 453.5433 44 l 453.5433 48.4224 449.9657 52 445.5433 52 c 8 52 l 3.5776 52 0 48.4224 0 44 c 0 0 l h W* n
+%end table rect clip
+.356863 .129412 .713725 rg
+n 0 52 453.5433 -52 re f*
+1 1 1 rg
+BT /F2 13 Tf 12 TL ET
+BT 1 0 0 1 173.5367 25 Tm /F5 13 Tf 12 TL (nn) Tj /F2 13 Tf 12 TL (  Campus Bite) Tj T* ET
+BT 1 0 0 1 109.0242 13 Tm (Your personal food ordering assistant) Tj T* ET
+q
+Q
+Q
+Q
+q
+1 0 0 1 63.77953 649.1969 cm
+q
+.980392 .976471 1 rg
+n 0 46 467.7165 -46 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 3 cm
+q
+%begin table rect clip
+n 8 0 m 360.5039 0 l 364.9263 0 368.5039 3.5776 368.5039 8 c 368.5039 32 l 368.5039 36.4224 364.9263 40 360.5039 40 c 8 40 l 3.5776 40 0 36.4224 0 32 c 0 8 l 0 3.5776 3.5776 0 8 0 c h W* n
+%end table rect clip
+.952941 .941176 1 rg
+n 0 40 368.5039 -40 re f*
+.231373 .027451 .392157 rg
+BT /F1 9 Tf 13 TL ET
+BT 1 0 0 1 10 24 Tm (Welcome to Campus Bite! ) Tj /F5 9 Tf 13 TL (n) Tj /F1 9 Tf 13 TL (  I'm here to help you order food.) Tj T* ET
+BT 1 0 0 1 10 11 Tm (Type menu, add burger, cart, or checkout.) Tj T* ET
+q
+Q
+Q
+Q
+BT 1 0 0 1 368.5039 5 Tm ( ) Tj T* ET
+q
+Q
+Q
+Q
+q
+1 0 0 1 63.77953 616.1969 cm
+q
+.980392 .976471 1 rg
+n 0 33 467.7165 -33 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm ( ) Tj T* ET
+q
+1 0 0 1 99.2126 3 cm
+q
+%begin table rect clip
+n 8 0 m 360.5039 0 l 364.9263 0 368.5039 3.5776 368.5039 8 c 368.5039 19 l 368.5039 23.4224 364.9263 27 360.5039 27 c 8 27 l 3.5776 27 0 23.4224 0 19 c 0 8 l 0 3.5776 3.5776 0 8 0 c h W* n
+%end table rect clip
+.486275 .227451 .929412 rg
+n 0 27 368.5039 -27 re f*
+1 1 1 rg
+BT /F1 9 Tf 13 TL ET
+BT 1 0 0 1 10 11 Tm (Show me the menu) Tj T* ET
+q
+Q
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 63.77953 531.1969 cm
+q
+.980392 .976471 1 rg
+n 0 85 467.7165 -85 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 3 cm
+q
+%begin table rect clip
+n 8 0 m 360.5039 0 l 364.9263 0 368.5039 3.5776 368.5039 8 c 368.5039 71 l 368.5039 75.4224 364.9263 79 360.5039 79 c 8 79 l 3.5776 79 0 75.4224 0 71 c 0 8 l 0 3.5776 3.5776 0 8 0 c h W* n
+%end table rect clip
+.952941 .941176 1 rg
+n 0 79 368.5039 -79 re f*
+.231373 .027451 .392157 rg
+BT /F1 9 Tf 13 TL ET
+BT 1 0 0 1 10 63 Tm /F5 9 Tf 13 TL (n) Tj /F1 9 Tf 13 TL ( Our Menu:) Tj T* ET
+BT 1 0 0 1 10 50 Tm (\177 Classic Burger - $12.99) Tj T* ET
+BT 1 0 0 1 10 37 Tm (\177 Margherita Pizza - $14.99) Tj T* ET
+BT 1 0 0 1 10 24 Tm (\177 Caesar Salad - $9.99) Tj T* ET
+BT 1 0 0 1 10 11 Tm (\177 Iced Latte - $4.50) Tj T* ET
+q
+Q
+Q
+Q
+BT 1 0 0 1 368.5039 5 Tm ( ) Tj T* ET
+q
+Q
+Q
+Q
+q
+1 0 0 1 63.77953 498.1969 cm
+q
+.980392 .976471 1 rg
+n 0 33 467.7165 -33 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm ( ) Tj T* ET
+q
+1 0 0 1 99.2126 3 cm
+q
+%begin table rect clip
+n 8 0 m 360.5039 0 l 364.9263 0 368.5039 3.5776 368.5039 8 c 368.5039 19 l 368.5039 23.4224 364.9263 27 360.5039 27 c 8 27 l 3.5776 27 0 23.4224 0 19 c 0 8 l 0 3.5776 3.5776 0 8 0 c h W* n
+%end table rect clip
+.486275 .227451 .929412 rg
+n 0 27 368.5039 -27 re f*
+1 1 1 rg
+BT /F1 9 Tf 13 TL ET
+BT 1 0 0 1 10 11 Tm (Add a burger) Tj T* ET
+q
+Q
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 63.77953 465.1969 cm
+q
+.980392 .976471 1 rg
+n 0 33 467.7165 -33 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 3 cm
+q
+%begin table rect clip
+n 8 0 m 360.5039 0 l 364.9263 0 368.5039 3.5776 368.5039 8 c 368.5039 19 l 368.5039 23.4224 364.9263 27 360.5039 27 c 8 27 l 3.5776 27 0 23.4224 0 19 c 0 8 l 0 3.5776 3.5776 0 8 0 c h W* n
+%end table rect clip
+.952941 .941176 1 rg
+n 0 27 368.5039 -27 re f*
+.231373 .027451 .392157 rg
+BT /F1 9 Tf 13 TL ET
+BT 1 0 0 1 10 11 Tm /F5 9 Tf 13 TL (n) Tj /F1 9 Tf 13 TL ( Added Classic Burger to your cart! Type cart to view or checkout to pay.) Tj T* ET
+q
+Q
+Q
+Q
+BT 1 0 0 1 368.5039 5 Tm ( ) Tj T* ET
+q
+Q
+Q
+Q
+q
+1 0 0 1 63.77953 432.1969 cm
+q
+.980392 .976471 1 rg
+n 0 33 467.7165 -33 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm ( ) Tj T* ET
+q
+1 0 0 1 99.2126 3 cm
+q
+%begin table rect clip
+n 8 0 m 360.5039 0 l 364.9263 0 368.5039 3.5776 368.5039 8 c 368.5039 19 l 368.5039 23.4224 364.9263 27 360.5039 27 c 8 27 l 3.5776 27 0 23.4224 0 19 c 0 8 l 0 3.5776 3.5776 0 8 0 c h W* n
+%end table rect clip
+.486275 .227451 .929412 rg
+n 0 27 368.5039 -27 re f*
+1 1 1 rg
+BT /F1 9 Tf 13 TL ET
+BT 1 0 0 1 10 11 Tm (cart) Tj T* ET
+q
+Q
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 63.77953 386.1969 cm
+q
+.980392 .976471 1 rg
+n 0 46 467.7165 -46 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 3 cm
+q
+%begin table rect clip
+n 8 0 m 360.5039 0 l 364.9263 0 368.5039 3.5776 368.5039 8 c 368.5039 32 l 368.5039 36.4224 364.9263 40 360.5039 40 c 8 40 l 3.5776 40 0 36.4224 0 32 c 0 8 l 0 3.5776 3.5776 0 8 0 c h W* n
+%end table rect clip
+.952941 .941176 1 rg
+n 0 40 368.5039 -40 re f*
+.231373 .027451 .392157 rg
+BT /F1 9 Tf 13 TL ET
+BT 1 0 0 1 10 24 Tm /F5 9 Tf 13 TL (n) Tj /F1 9 Tf 13 TL ( Cart: Classic Burger) Tj T* ET
+BT 1 0 0 1 10 11 Tm (Total: $12.99) Tj T* ET
+q
+Q
+Q
+Q
+BT 1 0 0 1 368.5039 5 Tm ( ) Tj T* ET
+q
+Q
+Q
+Q
+q
+1 0 0 1 63.77953 353.1969 cm
+q
+.980392 .976471 1 rg
+n 0 33 467.7165 -33 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm ( ) Tj T* ET
+q
+1 0 0 1 99.2126 3 cm
+q
+%begin table rect clip
+n 8 0 m 360.5039 0 l 364.9263 0 368.5039 3.5776 368.5039 8 c 368.5039 19 l 368.5039 23.4224 364.9263 27 360.5039 27 c 8 27 l 3.5776 27 0 23.4224 0 19 c 0 8 l 0 3.5776 3.5776 0 8 0 c h W* n
+%end table rect clip
+.486275 .227451 .929412 rg
+n 0 27 368.5039 -27 re f*
+1 1 1 rg
+BT /F1 9 Tf 13 TL ET
+BT 1 0 0 1 10 11 Tm (checkout) Tj T* ET
+q
+Q
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 63.77953 320.1969 cm
+q
+.980392 .976471 1 rg
+n 0 33 467.7165 -33 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 3 cm
+q
+%begin table rect clip
+n 8 0 m 360.5039 0 l 364.9263 0 368.5039 3.5776 368.5039 8 c 368.5039 19 l 368.5039 23.4224 364.9263 27 360.5039 27 c 8 27 l 3.5776 27 0 23.4224 0 19 c 0 8 l 0 3.5776 3.5776 0 8 0 c h W* n
+%end table rect clip
+.952941 .941176 1 rg
+n 0 27 368.5039 -27 re f*
+.231373 .027451 .392157 rg
+BT /F1 9 Tf 13 TL ET
+BT 1 0 0 1 10 11 Tm /F5 9 Tf 13 TL (n) Tj /F1 9 Tf 13 TL ( Order placed! Total paid: $12.99. Your food is being prepared!) Tj T* ET
+q
+Q
+Q
+Q
+BT 1 0 0 1 368.5039 5 Tm ( ) Tj T* ET
+q
+Q
+Q
+Q
+q
+1 0 0 1 77.95276 288.1969 cm
+q
+%begin table rect clip
+n 20 0 m 419.3701 0 l 430.4261 0 439.3701 8.944 439.3701 20 c 439.3701 12 l 439.3701 23.056 430.4261 32 419.3701 32 c 20 32 l 8.944 32 0 23.056 0 12 c 0 20 l 0 8.944 8.944 0 20 0 c h W* n
+%end table rect clip
+1 1 1 rg
+n 0 32 374.1732 -32 re f*
+.486275 .227451 .929412 rg
+n 374.1732 32 65.19685 -32 re f*
+0 .039216 .666667 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 14 12 Tm (Type your order...  \(e.g., 'Add a pizza'\)) Tj T* ET
+1 1 1 rg
+BT 1 0 0 1 397.4067 12 Tm (  ) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (  ) Tj T* ET
+q
+1 J
+1 j
+.866667 .839216 .996078 RG
+.8 w
+n 374.1732 0 m 374.1732 32 l S
+Q
+Q
+q
+1 J
+1 j
+.866667 .839216 .996078 RG
+.8 w
+n 5.854 26.146 m 9.472 29.764 14.472 32 20 32 c 374.1732 32 l
+S
+n 5.854 5.854 m 9.472 2.236 14.472 0 20 0 c 374.1732 0 l
+S
+n 5.854 5.854 m 2.236 9.472 0 14.472 0 20 c 0 12 l 0 17.528 2.236 22.528 5.854 26.146 c
+S
+Q
+Q
+q
+1 0 0 1 77.95276 260.1969 cm
+q
+%begin table rect clip
+n 8 0 m 431.3701 0 l 435.7925 0 439.3701 3.5776 439.3701 8 c 439.3701 28 l 0 28 l 0 8 l 0 3.5776 3.5776 0 8 0 c h W* n
+%end table rect clip
+.980392 .976471 1 rg
+n 0 28 439.3701 -28 re f*
+.486275 .227451 .929412 rg
+BT /F6 9 Tf 12 TL ET
+BT 1 0 0 1 118.4755 11 Tm /F5 9 Tf 12 TL (n) Tj /F6 9 Tf 12 TL ( Tip: Be specific with your order for better results!) Tj T* ET
+q
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 720 600 100 re
+f*
+Q
+
+
+endstream
+endobj
+44 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 45
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000184 00000 n 
+0000000233 00000 n 
+0000000545 00000 n 
+0000005024 00000 n 
+0000005131 00000 n 
+0000005238 00000 n 
+0000005345 00000 n 
+0000005457 00000 n 
+0000005570 00000 n 
+0000005690 00000 n 
+0000005796 00000 n 
+0000005880 00000 n 
+0000005996 00000 n 
+0000006286 00000 n 
+0000009665 00000 n 
+0000009773 00000 n 
+0000010063 00000 n 
+0000013198 00000 n 
+0000013306 00000 n 
+0000013596 00000 n 
+0000016465 00000 n 
+0000016573 00000 n 
+0000016863 00000 n 
+0000017259 00000 n 
+0000017367 00000 n 
+0000017657 00000 n 
+0000020272 00000 n 
+0000020380 00000 n 
+0000020670 00000 n 
+0000022949 00000 n 
+0000023057 00000 n 
+0000023347 00000 n 
+0000025926 00000 n 
+0000026034 00000 n 
+0000026324 00000 n 
+0000029162 00000 n 
+0000029270 00000 n 
+0000029560 00000 n 
+0000031650 00000 n 
+0000031758 00000 n 
+0000032048 00000 n 
+0000039848 00000 n 
+trailer
+<<
+/Size 45
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+39956
+%%EOF
